@@ -1,0 +1,192 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container for all sections */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Section */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+header nav ul {
+  list-style: none;
+  float: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  padding: 10px;
+  transition: 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background: #333 url('hero-bg.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #00aaff;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #0077aa;
+}
+
+/* About Section */
+.about {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.8;
+}
+
+/* Services Section */
+.services {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service-card {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.service-card p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+.contact button {
+  background-color: #00aaff;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #0077aa;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
